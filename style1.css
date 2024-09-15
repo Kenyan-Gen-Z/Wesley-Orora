@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.auth-buttons .btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+.btn.primary {
+    background-color: #000;
+    color: #fff;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.service-item,
+.specialty-item,
+.doctor-item,
+.testimonial-item {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}

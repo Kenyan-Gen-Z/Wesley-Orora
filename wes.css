@@ -1,0 +1,302 @@
+body{
+border: none;
+    margin: 10px ;
+    text-align: center;
+    align-content: center;
+}
+header{
+    text-align: left;
+    padding: 0 40px ;
+    
+    border: none;
+    transition: 0.2s;
+  
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.auth-buttons .btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+#myNavbar{
+    text-align: center;
+
+}
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 640px;
+    top: 20%;
+}
+
+/* Close Button */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #aaa;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    cursor: pointer;
+}
+
+#ul1{
+    
+    padding: 0px 400px 0px 0px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+}
+#ul2{
+    
+    padding: 0px 250px 0px 0px;
+    display: inline-flex;
+    justify-content: center;
+}
+#ul{
+    padding: 0px 400px 0px 0px; 
+    text-align: right;
+}
+#login{
+
+    display: inline-flex;
+    background-color: gray;
+    
+}
+#status{
+    margin: 100px;
+    background-color: rgb(49, 46, 46);
+
+    display:inline-flex;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+#stra{
+    font-size: larger;
+    display:flex ;
+    border-width: 0px 5px 0px 0px;
+    padding: 10px 100px;
+    border-style:inset;
+    border-color: grey;
+}
+#strat{
+    font-size: larger;
+    display:flex ;
+    padding: 10px 100px;
+    border-style:inset;
+    border-color: grey;
+    border:none;
+}
+#backup{
+    display:flex;
+    padding: 5px;
+    margin:0px 20px;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+div{
+    border-right: 50px;
+    display:flex;
+}
+li{
+    color: blue;
+    display:inline-block;
+    
+    
+}
+#deaf{ 
+    display:inline-block;
+    padding: 0px 80px 10px 10px;
+    margin:30px;
+
+}
+#lofty{
+    padding: 2px;
+    background-color: gray;
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+#trash{
+    display:inline-block;
+    background-color: grey;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+#icon{
+    display: inline-block;
+    background-color: white;
+    justify-content: space-between;
+    padding: 50px 50px;
+    text-align: center;
+    align-content: center;
+}
+
+#aboutus{
+    align-content:start;
+    background-color: rgb(197, 197, 197);
+    justify-content:flex-start;
+    margin: 20px 50px;
+    display: inline-block;
+    padding: 2px 300px
+    5px 0px;
+    align-content:flex-start;
+    text-align: left;
+    border-radius: 10px;
+}
+#unset{
+    padding:20px;
+    background-color: gray;
+    margin: 20px 100px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+#coloumn{
+    background-color: white;
+    justify-content: space-between;
+    padding: 5px;
+    text-align: start;
+    align-content: center;
+    margin:0px 80px;
+    border-radius: 10px;
+}
+
+
+button{
+    background-color: rgb(32, 29, 29);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+#mbithi{
+    display:inline-block;
+    justify-content: left;
+    background-color: gray;
+    padding: 2px 100px
+    5px 0px;
+    margin:10px;
+    text-align: left;
+    border-radius: 10px;
+    align-items: stretch;
+}
+#me{
+    display:inline-block;
+    background-color: grey;
+    padding: 20px 100px;
+    margin: 5px;
+    justify-content: space-between;
+    border-width: 0px 15px 0px 0px;
+    border-radius: 10px;
+  }
+figure{
+    display:inline-flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 20px;
+}
+
+p{
+    text-align:100px;
+}
+section{ 
+    justify-content:space-between;
+    border: 10px;
+    text-align: center;
+
+}
+footer{ 
+    padding:20px 0px  0px 0px;
+    display: list-item;
+}
+#footer{
+    display: inline-block;
+    justify-content: space-between;
+    text-align:left;
+    padding: 0px 200px 200px 0px;
+    align-content: start;
+}
+a{
+    padding: 10px;
+}
+
+video{
+border: 10px;
+}
+#finito{
+    background-color: gray;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media  screen   {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media screen {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
